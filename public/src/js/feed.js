@@ -99,4 +99,5 @@ function success(data) {
 
 function error(err) {
   console.log(err);
+  alert("您選擇拒絕授權，如要繼續請允許取得位置授權");
 }
