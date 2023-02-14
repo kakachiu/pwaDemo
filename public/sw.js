@@ -1,5 +1,5 @@
-let CACHE_STATIC_NAME = "static-v3";
-let CACHE_DYNAMIC_NAME = "dynamic-v2";
+let CACHE_STATIC_NAME = "static-v4";
+let CACHE_DYNAMIC_NAME = "dynamic-v3";
 
 self.addEventListener("install", function (event) {
   console.log("[Service Worker] Installing Service Worker ...", event);
@@ -8,15 +8,15 @@ self.addEventListener("install", function (event) {
       console.log("[Service Worker] Precaching App Shell");
       cache.addAll([
         "/",
-        "/index.html",
-        "/src/js/app.js",
-        "/src/js/feed.js",
-        "/src/js/promise.js",
-        "/src/js/fetch.js",
-        "/src/js/material.min.js",
-        "/src/css/app.css",
-        "/src/css/feed.css",
-        "/src/images/main-image.jpg",
+        "index.html",
+        "src/js/app.js",
+        "src/js/feed.js",
+        "src/js/promise.js",
+        "src/js/fetch.js",
+        "src/js/material.min.js",
+        "src/css/app.css",
+        "src/css/feed.css",
+        "src/images/main-image.jpg",
         "https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap",
         "https://fonts.googleapis.com/icon?family=Material+Icons",
         "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css"
