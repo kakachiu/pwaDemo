@@ -1,4 +1,4 @@
-let CACHE_STATIC_NAME = "static-v2";
+let CACHE_STATIC_NAME = "static-v3";
 let CACHE_DYNAMIC_NAME = "dynamic-v2";
 
 self.addEventListener("install", function (event) {
